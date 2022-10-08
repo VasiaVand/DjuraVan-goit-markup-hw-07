@@ -1,0 +1,88 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--text-primary-color);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.footer-title {
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-list {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.address-link {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address-link--color {
+    color: #fff;
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: var(--secondary-decoretion-color);
+
+    .address-link--color {
+        color: var(--secondary-decoretion-color);
+    }
+}
+
+/*--Розсилка-->*/
+.mailing-title {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--main-decoretion-color);
+}
+
+.mailing-form {
+    display: flex;
+}
+
+.email-field input {
+    width: 358px;
+    height: 50px;
+    padding: 15px 0 15px 16px;
+    border-radius: 4px;
+    background-color: var(--text-primary-color);
+    margin-right: 12px;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    color: var(--main-decoretion-color);
+}
+
+.modal-check-link {
+    text-decoration: underline;
+}
